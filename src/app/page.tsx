@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 export default function Home() {
-  // Installation steps data
+  // Installation steps data remains the same
   const installSteps = [
     {
       id: 1,
@@ -36,10 +36,10 @@ export default function Home() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-50 to-blue-50 text-slate-800">
+    <div className="min-h-screen bg-gradient-to-b from-slate-100 to-blue-100 text-slate-700">
       {/* Hero Section */}
       <header className="relative h-[50vh] overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-slate-900/60 to-blue-900/60 z-10"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-slate-400/60 to-blue-300/60 z-10"></div>
         <div className="relative h-full w-full bg-[url('/images/hero.jpg')] bg-cover bg-center">
           {/* Hero image from public/images/hero.jpeg */}
         </div>
@@ -56,8 +56,8 @@ export default function Home() {
       {/* Main Content */}
       <main className="max-w-5xl mx-auto px-6 py-16">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-serif font-light mb-6 text-slate-800">Here's How to Get Started</h2>
-          <p className="text-lg text-blue-700 max-w-2xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-serif font-light mb-6 text-slate-700">Here's How to Get Started</h2>
+          <p className="text-lg text-blue-500 max-w-2xl mx-auto">
             Follow these simple steps to begin your journey into the world of fine beverages and exclusive tasting experiences.
           </p>
         </div>
@@ -65,20 +65,20 @@ export default function Home() {
         {/* Installation Steps */}
         <div className="flex flex-col gap-10 mb-16">
           {installSteps.map((step) => (
-            <div key={step.id} className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-slate-100 hover:border-blue-100">
+            <div key={step.id} className="bg-gradient-to-r from-white to-blue-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-slate-100 hover:border-blue-200">
               <div className="flex items-start gap-4">
-                <div className="h-14 w-14 flex items-center justify-center bg-gradient-to-r from-slate-500 to-blue-500 text-white rounded-full shadow-md">
+                <div className="h-14 w-14 flex items-center justify-center bg-gradient-to-r from-slate-300 to-blue-300 text-white rounded-full shadow-md">
                   <span className="text-2xl">{step.icon}</span>
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-xl font-medium mb-2 text-slate-800">✅ Step {step.id}: {step.title}</h3>
-                  <p className="text-blue-700">{step.description}</p>
+                  <h3 className="text-xl font-medium mb-2 text-slate-700">✅ Step {step.id}: {step.title}</h3>
+                  <p className="text-blue-500">{step.description}</p>
                   
                   {step.id === 2 && (
-                    <div className="mt-4 p-4 bg-gradient-to-r from-slate-50 to-blue-50 rounded-lg border border-slate-200">
+                    <div className="mt-4 p-4 bg-gradient-to-r from-slate-100 to-blue-100 rounded-lg border border-slate-200">
                       <a 
                         href="https://expo.dev/preview/update?message=Merge%20branch%20'WaleyLin%3Amain'%20into%20main&updateRuntimeVersion=exposdk%3A52.0.0&createdAt=2025-04-03T01%3A19%3A29.747Z&slug=exp&projectId=c15de187-d9fe-4b8b-b42e-c4a219aca1a3&group=4f604040-a455-44b1-b028-394ebb77ec9d"
-                        className="text-blue-700 underline font-medium hover:text-blue-900 flex items-center justify-center py-2"
+                        className="text-blue-500 underline font-medium hover:text-blue-700 flex items-center justify-center py-2"
                       >
                         <span className="mr-2">Click here to launch Sip n Savor in Expo Go</span> 
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
@@ -89,7 +89,7 @@ export default function Home() {
                   {step.id === 4 && (
                     <div className="mt-4 grid grid-cols-2 sm:grid-cols-4 gap-2">
                       {["Quiz", "Maps", "ChatBot", "Tasting Log", "Info Guide", "Explore", "Badges", "Flashcards"].map((feature) => (
-                        <div key={feature} className="bg-gradient-to-r from-slate-100 to-blue-100 px-3 py-2 rounded-lg text-center text-blue-700 font-medium hover:from-slate-200 hover:to-blue-200 transition-colors cursor-pointer shadow-sm">
+                        <div key={feature} className="bg-gradient-to-r from-slate-200 to-blue-200 px-3 py-2 rounded-lg text-center text-slate-700 font-medium hover:from-slate-300 hover:to-blue-300 transition-colors cursor-pointer shadow-sm">
                           {feature}
                         </div>
                       ))}
@@ -97,10 +97,10 @@ export default function Home() {
                   )}
                   
                   {step.id === 5 && (
-                    <div className="mt-4 p-4 bg-gradient-to-r from-slate-50 to-blue-50 rounded-lg border border-slate-200">
+                    <div className="mt-4 p-4 bg-gradient-to-r from-slate-100 to-blue-100 rounded-lg border border-slate-200">
                       <a 
                         href="https://docs.google.com/forms/d/e/1FAIpQLSfpVDbj-HElUJPPGYqPEmwd7rB1ThGcfDhURwgGqxYBLmckUw/viewform?usp=header"
-                        className="text-blue-700 underline font-medium hover:text-blue-900 flex items-center justify-center py-2"
+                        className="text-blue-500 underline font-medium hover:text-blue-700 flex items-center justify-center py-2"
                       >
                         <span className="mr-2">📋 Click here to take our feedback survey</span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
@@ -114,9 +114,9 @@ export default function Home() {
         </div>
 
         {/* Download Buttons */}
-        <div className="bg-gradient-to-r from-slate-700 to-blue-700 rounded-2xl p-10 text-center shadow-lg">
-          <h3 className="text-2xl font-serif font-light mb-6 text-white">Download Expo Go Now</h3>
-          <p className="text-slate-100 mb-8 max-w-2xl mx-auto">
+        <div className="bg-gradient-to-r from-slate-300 to-blue-300 rounded-2xl p-10 text-center shadow-lg">
+          <h3 className="text-2xl font-serif font-light mb-6 text-slate-800">Download Expo Go Now</h3>
+          <p className="text-slate-700 mb-8 max-w-2xl mx-auto">
             Begin your journey into the world of fine beverages and personalized tasting experiences.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -126,7 +126,7 @@ export default function Home() {
               className="bg-white text-slate-700 px-6 py-3 rounded-full flex items-center justify-center gap-2 hover:bg-slate-50 transition-colors duration-300 shadow-md"
             >
               <Image
-                src="/app-store.svg" // Add this placeholder SVG to your public folder
+                src="/images/app-store.png"
                 alt="App Store"
                 width={24}
                 height={24}
@@ -140,7 +140,7 @@ export default function Home() {
               className="bg-white text-slate-700 px-6 py-3 rounded-full flex items-center justify-center gap-2 hover:bg-slate-50 transition-colors duration-300 shadow-md"
             >
               <Image
-                src="/google-play.svg" // Add this placeholder SVG to your public folder
+                src="/images/gg-play.png"
                 alt="Google Play"
                 width={24}
                 height={24}
@@ -153,20 +153,20 @@ export default function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-gradient-to-r from-slate-800 to-blue-900 text-white py-10">
+      <footer className="bg-gradient-to-r from-slate-400 to-blue-400 text-white py-10">
         <div className="max-w-5xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-center md:text-left">
             <h2 className="text-2xl font-serif font-light mb-2">Sip n Savor</h2>
-            <p className="text-slate-300 text-sm">Thanks again for helping us make Sip n Savor the best it can be!</p>
+            <p className="text-slate-100 text-sm">Thanks again for helping us make Sip n Savor the best it can be!</p>
           </div>
           <div className="flex gap-6">
-            <a href="#" className="text-slate-300 hover:text-white transition-colors">
+            <a href="#" className="text-slate-100 hover:text-white transition-colors">
               Contact
             </a>
-            <a href="#" className="text-slate-300 hover:text-white transition-colors">
+            <a href="#" className="text-slate-100 hover:text-white transition-colors">
               Support
             </a>
-            <a href="#" className="text-slate-300 hover:text-white transition-colors">
+            <a href="#" className="text-slate-100 hover:text-white transition-colors">
               Privacy
             </a>
           </div>
