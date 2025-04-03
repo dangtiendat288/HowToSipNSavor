@@ -96,7 +96,7 @@ function Home() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-xl md:text-2xl font-light max-w-2xl text-center leading-relaxed",
-                                children: "We're so excited to have you on board! Your feedback will help us polish and perfect the experience."
+                                children: "We are so excited to have you on board! Your feedback will help us polish and perfect the experience."
                             }, void 0, false, {
                                 fileName: "[project]/src/app/page.tsx",
                                 lineNumber: 50,
@@ -122,7 +122,7 @@ function Home() {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 className: "text-3xl md:text-4xl font-serif font-light mb-6 text-slate-700",
-                                children: "Here's How to Get Started"
+                                children: "Here is How to Get Started"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/page.tsx",
                                 lineNumber: 59,
@@ -168,7 +168,7 @@ function Home() {
                                             className: "flex-1",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                    className: "text-xl font-medium mb-2 text-slate-700",
+                                                    className: "text-xl font-bold mb-2 text-slate-700",
                                                     children: [
                                                         "✅ Step ",
                                                         step.id,
@@ -181,7 +181,7 @@ function Home() {
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "text-blue-500",
+                                                    className: "text-black-500",
                                                     children: step.description
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/page.tsx",
@@ -370,7 +370,7 @@ function Home() {
                         className: "bg-gradient-to-r from-slate-300 to-blue-300 rounded-2xl p-10 text-center shadow-lg",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                className: "text-2xl font-serif font-light mb-6 text-slate-800",
+                                className: "text-2xl font-serif font-medium mb-6 text-slate-800",
                                 children: "Download Expo Go Now"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/page.tsx",

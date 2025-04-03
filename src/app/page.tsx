@@ -48,7 +48,7 @@ export default function Home() {
             🥂 Thank You for Beta Testing Sip n Savor!
           </h1>
           <p className="text-xl md:text-2xl font-light max-w-2xl text-center leading-relaxed">
-            We're so excited to have you on board! Your feedback will help us polish and perfect the experience.
+            We are so excited to have you on board! Your feedback will help us polish and perfect the experience.
           </p>
         </div>
       </header>
@@ -56,7 +56,7 @@ export default function Home() {
       {/* Main Content */}
       <main className="max-w-5xl mx-auto px-6 py-16">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-serif font-light mb-6 text-slate-700">Here's How to Get Started</h2>
+          <h2 className="text-3xl md:text-4xl font-serif font-light mb-6 text-slate-700">Here is How to Get Started</h2>
           <p className="text-lg text-blue-500 max-w-2xl mx-auto">
             Follow these simple steps to begin your journey into the world of fine beverages and exclusive tasting experiences.
           </p>
@@ -71,8 +71,8 @@ export default function Home() {
                   <span className="text-2xl">{step.icon}</span>
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-xl font-medium mb-2 text-slate-700">✅ Step {step.id}: {step.title}</h3>
-                  <p className="text-blue-500">{step.description}</p>
+                  <h3 className="text-xl font-bold mb-2 text-slate-700">✅ Step {step.id}: {step.title}</h3>
+                  <p className="text-black-500">{step.description}</p>
                   
                   {step.id === 2 && (
                     <div className="mt-4 p-4 bg-gradient-to-r from-slate-100 to-blue-100 rounded-lg border border-slate-200">
@@ -115,7 +115,7 @@ export default function Home() {
 
         {/* Download Buttons */}
         <div className="bg-gradient-to-r from-slate-300 to-blue-300 rounded-2xl p-10 text-center shadow-lg">
-          <h3 className="text-2xl font-serif font-light mb-6 text-slate-800">Download Expo Go Now</h3>
+          <h3 className="text-2xl font-serif font-medium mb-6 text-slate-800">Download Expo Go Now</h3>
           <p className="text-slate-700 mb-8 max-w-2xl mx-auto">
             Begin your journey into the world of fine beverages and personalized tasting experiences.
           </p>
