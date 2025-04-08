@@ -77,7 +77,7 @@ export default function Home() {
                   {step.id === 2 && (
                     <div className="mt-4 p-4 bg-gradient-to-r from-slate-100 to-blue-100 rounded-lg border border-slate-200">
                       <a 
-                        href="https://expo.dev/preview/update?message=fix%20explore%20screen%20header's%20padding&updateRuntimeVersion=exposdk%3A52.0.0&createdAt=2025-04-03T18%3A18%3A43.076Z&slug=exp&projectId=c15de187-d9fe-4b8b-b42e-c4a219aca1a3&group=c770941a-81b6-4ae1-8589-bc8f4d2b05d8"
+                        href="https://expo.dev/preview/update?message=Merge%20branch%20%27WaleyLin%3Amain%27%20into%20main&updateRuntimeVersion=exposdk%3A52.0.0&createdAt=2025-04-05T01%3A12%3A42.238Z&slug=exp&projectId=c15de187-d9fe-4b8b-b42e-c4a219aca1a3&group=06281067-a208-47f4-94b7-8c678b8dff5f"
                         className="text-blue-500 underline font-medium hover:text-blue-700 flex items-center justify-center py-2"
                       >
                         <span className="mr-2">Click here to launch Sip n Savor in Expo Go</span> 
