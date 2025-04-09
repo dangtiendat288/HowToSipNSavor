@@ -70,7 +70,7 @@ function Home() {
                 className: "relative h-[50vh] overflow-hidden",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "absolute inset-0 bg-gradient-to-r from-slate-400/60 to-blue-300/60 z-10"
+                        className: "absolute inset-0 bg-gradient-to-r from-gray-800/70 to-gray-600/70 z-10"
                     }, void 0, false, {
                         fileName: "[project]/src/app/page.tsx",
                         lineNumber: 42,
@@ -191,7 +191,7 @@ function Home() {
                                                 step.id === 2 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     className: "mt-4 p-4 bg-gradient-to-r from-slate-100 to-blue-100 rounded-lg border border-slate-200",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                        href: "https://expo.dev/preview/update?message=Merge%20branch%20'WaleyLin%3Amain'%20into%20main&updateRuntimeVersion=exposdk%3A52.0.0&createdAt=2025-04-03T01%3A19%3A29.747Z&slug=exp&projectId=c15de187-d9fe-4b8b-b42e-c4a219aca1a3&group=4f604040-a455-44b1-b028-394ebb77ec9d",
+                                                        href: "https://expo.dev/preview/update?message=Merge%20branch%20'WaleyLin%3Amain'%20into%20main&updateRuntimeVersion=exposdk%3A52.0.0&createdAt=2025-04-09T08%3A49%3A10.526Z&slug=exp&projectId=c15de187-d9fe-4b8b-b42e-c4a219aca1a3&group=c98f38eb-38cc-4db5-baf4-bc49c7fddbe9",
                                                         className: "text-blue-500 underline font-medium hover:text-blue-700 flex items-center justify-center py-2",
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {

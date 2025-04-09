@@ -39,7 +39,7 @@ export default function Home() {
     <div className="min-h-screen bg-gradient-to-b from-slate-100 to-blue-100 text-slate-700">
       {/* Hero Section */}
       <header className="relative h-[50vh] overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-slate-400/60 to-blue-300/60 z-10"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-gray-800/70 to-gray-600/70 z-10"></div>
         <div className="relative h-full w-full bg-[url('/images/hero.jpg')] bg-cover bg-center">
           {/* Hero image from public/images/hero.jpeg */}
         </div>
@@ -77,7 +77,7 @@ export default function Home() {
                   {step.id === 2 && (
                     <div className="mt-4 p-4 bg-gradient-to-r from-slate-100 to-blue-100 rounded-lg border border-slate-200">
                       <a 
-                        href="https://expo.dev/preview/update?message=Merge%20branch%20%27WaleyLin%3Amain%27%20into%20main&updateRuntimeVersion=exposdk%3A52.0.0&createdAt=2025-04-05T01%3A12%3A42.238Z&slug=exp&projectId=c15de187-d9fe-4b8b-b42e-c4a219aca1a3&group=06281067-a208-47f4-94b7-8c678b8dff5f"
+                        href="https://expo.dev/preview/update?message=Merge%20branch%20'WaleyLin%3Amain'%20into%20main&updateRuntimeVersion=exposdk%3A52.0.0&createdAt=2025-04-09T08%3A49%3A10.526Z&slug=exp&projectId=c15de187-d9fe-4b8b-b42e-c4a219aca1a3&group=c98f38eb-38cc-4db5-baf4-bc49c7fddbe9"
                         className="text-blue-500 underline font-medium hover:text-blue-700 flex items-center justify-center py-2"
                       >
                         <span className="mr-2">Click here to launch Sip n Savor in Expo Go</span> 
