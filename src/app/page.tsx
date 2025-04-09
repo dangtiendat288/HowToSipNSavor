@@ -77,7 +77,7 @@ export default function Home() {
                   {step.id === 2 && (
                     <div className="mt-4 p-4 bg-gradient-to-r from-slate-100 to-blue-100 rounded-lg border border-slate-200">
                       <a 
-                        href="https://expo.dev/preview/update?message=Merge%20branch%20'WaleyLin%3Amain'%20into%20main&updateRuntimeVersion=exposdk%3A52.0.0&createdAt=2025-04-09T08%3A49%3A10.526Z&slug=exp&projectId=c15de187-d9fe-4b8b-b42e-c4a219aca1a3&group=c98f38eb-38cc-4db5-baf4-bc49c7fddbe9"
+                        href="https://expo.dev/preview/update?message=Merge%20branch%20'WaleyLin%3Amain'%20into%20main&updateRuntimeVersion=exposdk%3A52.0.0&createdAt=2025-04-09T18%3A04%3A30.594Z&slug=exp&projectId=c15de187-d9fe-4b8b-b42e-c4a219aca1a3&group=2f5021f5-858c-4f4f-989b-03971a2b20ba"
                         className="text-blue-500 underline font-medium hover:text-blue-700 flex items-center justify-center py-2"
                       >
                         <span className="mr-2">Click here to launch Sip n Savor in Expo Go</span> 
