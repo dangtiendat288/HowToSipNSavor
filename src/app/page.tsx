@@ -73,19 +73,19 @@ export default function Home() {
                 <div className="flex-1">
                   <h3 className="text-xl font-bold mb-2 text-slate-700">✅ Step {step.id}: {step.title}</h3>
                   <p className="text-black-500">{step.description}</p>
-                  
+
                   {step.id === 2 && (
                     <div className="mt-4 p-4 bg-gradient-to-r from-slate-100 to-blue-100 rounded-lg border border-slate-200">
-                      <a 
-                        href="https://expo.dev/preview/update?message=Merge%20branch%20'WaleyLin%3Amain'%20into%20main&updateRuntimeVersion=exposdk%3A52.0.0&createdAt=2025-04-09T18%3A04%3A30.594Z&slug=exp&projectId=c15de187-d9fe-4b8b-b42e-c4a219aca1a3&group=2f5021f5-858c-4f4f-989b-03971a2b20ba"
+                      <a
+                        href="https://expo.dev/preview/update?message=Merge%20branch%20'WaleyLin%3Amain'%20into%20main&updateRuntimeVersion=exposdk%3A52.0.0&createdAt=2025-04-27T04%3A07%3A29.059Z&slug=exp&projectId=c15de187-d9fe-4b8b-b42e-c4a219aca1a3&group=346f98bd-cafe-44aa-bdda-665def971e52"
                         className="text-blue-500 underline font-medium hover:text-blue-700 flex items-center justify-center py-2"
                       >
-                        <span className="mr-2">Click here to launch Sip n Savor in Expo Go</span> 
+                        <span className="mr-2">Click here to launch Sip n Savor in Expo Go</span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
                       </a>
                     </div>
                   )}
-                  
+
                   {step.id === 4 && (
                     <div className="mt-4 grid grid-cols-2 sm:grid-cols-4 gap-2">
                       {["Quiz", "Maps", "ChatBot", "Tasting Log", "Info Guide", "Explore", "Badges", "Flashcards"].map((feature) => (
@@ -95,10 +95,10 @@ export default function Home() {
                       ))}
                     </div>
                   )}
-                  
+
                   {step.id === 5 && (
                     <div className="mt-4 p-4 bg-gradient-to-r from-slate-100 to-blue-100 rounded-lg border border-slate-200">
-                      <a 
+                      <a
                         href="https://docs.google.com/forms/d/e/1FAIpQLSfpVDbj-HElUJPPGYqPEmwd7rB1ThGcfDhURwgGqxYBLmckUw/viewform?usp=header"
                         className="text-blue-500 underline font-medium hover:text-blue-700 flex items-center justify-center py-2"
                       >
