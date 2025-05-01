@@ -29,3 +29,40 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Custom scrollbar styles for transparent background */
+::-webkit-scrollbar {
+  height: 12px;
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(58, 110, 165, 0.5); /* Accent color, semi-transparent */
+  border-radius: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-hide {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Transparent custom scrollbar for screenshot area */
+.transparent-scrollbar {
+  background: transparent !important;
+}
+.transparent-scrollbar::-webkit-scrollbar {
+  height: 12px;
+  background: transparent !important;
+}
+.transparent-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(58, 110, 165, 0.5) !important;
+  border-radius: 6px;
+}
+.transparent-scrollbar::-webkit-scrollbar-track {
+  background: transparent !important;
+}

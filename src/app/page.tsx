@@ -146,7 +146,7 @@ export default function Home() {
       </section>
 
       {/* App Screenshots Section */}
-      <section className="bg-gradient-to-r from-blue-900 to-indigo-900 py-24">
+      <section className="bg-transparent py-24"> {/* Changed from bg-gradient-to-r from-blue-900 to-indigo-900 to bg-transparent */}
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-serif font-light mb-6 text-white">See SipNSavor in Action</h2>
@@ -155,7 +155,7 @@ export default function Home() {
             </p>
           </div>
           
-          <div className="flex overflow-x-auto space-x-6 pb-8 scrollbar-hide">
+          <div className="flex overflow-x-auto space-x-6 pb-8 transparent-scrollbar">
             {screenshotCaptions.map((caption, index) => (
               <div key={index} className="flex-none w-72">
                 <div className="bg-[#051630] rounded-2xl overflow-hidden shadow-2xl">
@@ -250,7 +250,7 @@ export default function Home() {
             </div>
           </div>
           <div className="border-t border-blue-900 pt-8 flex flex-col md:flex-row justify-between items-center">
-            <p className="text-blue-300 text-sm">© {new Date().getFullYear()} SipNSavor. All rights reserved.</p>
+            <p className="text-blue-300 text-sm"> {new Date().getFullYear()} SipNSavor. All rights reserved.</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-blue-300 hover:text-white transition-colors">
                 Instagram

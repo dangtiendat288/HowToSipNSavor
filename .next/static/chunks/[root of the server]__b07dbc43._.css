@@ -2074,6 +2074,29 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+::-webkit-scrollbar {
+  height: 12px;
+  background: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3a6ea580;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: none;
+}
+
+.scrollbar-hide {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
 @property --tw-rotate-x {
   syntax: "*";
   inherits: false;
