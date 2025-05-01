@@ -13,8 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sip N Savor",
-  description: "Sip n Savor Beta Testing",
+  title: "SipNSavor | Elevate Your Wine Experience",
+  description: "Explore, learn, and track your wine journey with SipNSavor - the ultimate companion app for wine enthusiasts of all levels.",
+  keywords: "wine app, wine education, wine tasting, sommelier app, wine journal, wine maps, wine learning",
 };
 
 export default function RootLayout({

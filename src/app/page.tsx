@@ -1,129 +1,108 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
-  // Installation steps data remains the same
-  const installSteps = [
+  // Feature preview data
+  const featuresPreviews = [
     {
       id: 1,
-      title: "Download Expo Go",
-      description: "Go to your phone's app store and download the Expo Go app (available on iOS and Android).",
-      icon: "📱"
+      title: "Interactive Quizzes",
+      description: "Test your knowledge with engaging quizzes that adapt to your learning level and help you discover new wine facts.",
+      icon: "🎯"
     },
     {
       id: 2,
-      title: "Download Sip n Savor",
-      description: "Once you have Expo Go installed, click the link below to run the app. Click Open next to Expo Go.",
-      icon: "🍷"
+      title: "Tasting Logs",
+      description: "Record and revisit your favorite wines with detailed tasting notes, ratings, and photos to build your personal wine journal.",
+      icon: "📝"
     },
     {
       id: 3,
-      title: "Create an Account",
-      description: "Choose a username and password you'll remember. For testing, a simple password like 'password' will work fine.",
-      icon: "👤"
+      title: "Learning Flashcards",
+      description: "Master wine terminology, regions, and grape varieties with our easy-to-use digital flashcards for everyday learning.",
+      icon: "🧠"
     },
     {
       id: 4,
-      title: "Try Out All Features",
-      description: "Explore each feature: Quiz, Maps, ChatBot, Tasting Log, Info Guide, Explore, Badges, and Flashcards.",
-      icon: "✨"
+      title: "Interactive Maps",
+      description: "Explore the world's wine regions through interactive maps that reveal local varieties, climate insights, and tasting notes.",
+      icon: "🗺️"
     },
     {
       id: 5,
-      title: "Take the Feedback Survey",
-      description: "Once you've tried everything, please fill out our short feedback survey to help us improve.",
-      icon: "📋"
+      title: "AI Sommelier Bot",
+      description: "Get personalized wine recommendations and food pairings from our sophisticated AI sommelier that learns your preferences.",
+      icon: "🤖"
+    },
+    {
+      id: 6,
+      title: "Progress Tracking",
+      description: "Visualize your wine knowledge growth with achievement badges, progress charts, and personalized learning paths.",
+      icon: "📈"
+    },
+  ];
+
+  // Testimonial data
+  const testimonials = [
+    {
+      id: 1,
+      name: "Sophie Turner",
+      occupation: "Restaurant Owner",
+      quote: "SipNSavor transformed how I select wines for my restaurant. The knowledge I've gained has impressed even veteran sommeliers!",
+      avatar: "😊"
+    },
+    {
+      id: 2,
+      name: "Marcus Chen",
+      occupation: "Wine Enthusiast",
+      quote: "As a beginner, I was intimidated by wine culture until I found this app. Now I confidently choose wines for any occasion.",
+      avatar: "😎"
+    },
+    {
+      id: 3,
+      name: "Elena Rodriguez",
+      occupation: "Culinary Student",
+      quote: "The food pairing suggestions are spot-on! SipNSavor has become my secret weapon for creating memorable dining experiences.",
+      avatar: "🥂"
+    },
+    {
+      id: 4,
+      name: "William Hughes",
+      occupation: "Travel Blogger",
+      quote: "The interactive maps feature helped me plan amazing wine tours across Europe. It's like having a sommelier in your pocket!",
+      avatar: "✈️"
     }
   ];
 
+  // Screenshot captions
+  const screenshotCaptions = [
+    "Track Your Tastings",
+    "Expert Recommendations",
+    "Interactive Learning",
+    "Regional Exploration",
+    "Personal Progress"
+  ];
+
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-100 to-blue-100 text-slate-700">
+    <div className="min-h-screen bg-gradient-to-b from-slate-50 to-rose-50 text-slate-800">
       {/* Hero Section */}
-      <header className="relative h-[50vh] overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-gray-800/70 to-gray-600/70 z-10"></div>
+      <header className="relative h-[80vh] overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-r from-purple-900/70 to-rose-900/70 z-10"></div>
         <div className="relative h-full w-full bg-[url('/images/hero.jpg')] bg-cover bg-center">
-          {/* Hero image from public/images/hero.jpeg */}
+          {/* Hero image from public/images/hero.jpg */}
         </div>
         <div className="absolute inset-0 flex flex-col items-center justify-center z-20 text-white p-6">
-          <h1 className="text-4xl md:text-6xl font-serif font-light tracking-wide mb-4 text-center">
-            🥂 Thank You for Beta Testing Sip n Savor!
+          <h1 className="text-5xl md:text-7xl font-serif font-light tracking-wide mb-6 text-center">
+            Elevate Your Wine Experience
           </h1>
-          <p className="text-xl md:text-2xl font-light max-w-2xl text-center leading-relaxed">
-            We are so excited to have you on board! Your feedback will help us polish and perfect the experience.
+          <p className="text-xl md:text-2xl font-light max-w-2xl text-center leading-relaxed mb-8">
+            Discover, learn, and savor the world of wine with your personal sommelier companion app.
           </p>
-        </div>
-      </header>
-
-      {/* Main Content */}
-      <main className="max-w-5xl mx-auto px-6 py-16">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-serif font-light mb-6 text-slate-700">Here is How to Get Started</h2>
-          <p className="text-lg text-blue-500 max-w-2xl mx-auto">
-            Follow these simple steps to begin your journey into the world of fine beverages and exclusive tasting experiences.
-          </p>
-        </div>
-
-        {/* Installation Steps */}
-        <div className="flex flex-col gap-10 mb-16">
-          {installSteps.map((step) => (
-            <div key={step.id} className="bg-gradient-to-r from-white to-blue-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-slate-100 hover:border-blue-200">
-              <div className="flex items-start gap-4">
-                <div className="h-14 w-14 flex items-center justify-center bg-gradient-to-r from-slate-300 to-blue-300 text-white rounded-full shadow-md">
-                  <span className="text-2xl">{step.icon}</span>
-                </div>
-                <div className="flex-1">
-                  <h3 className="text-xl font-bold mb-2 text-slate-700">✅ Step {step.id}: {step.title}</h3>
-                  <p className="text-black-500">{step.description}</p>
-
-                  {step.id === 2 && (
-                    <div className="mt-4 p-4 bg-gradient-to-r from-slate-100 to-blue-100 rounded-lg border border-slate-200">
-                      <a
-                        href="https://expo.dev/preview/update?message=fix%20guest%20mode%20bug%20when%20user%20already%20logged%20in&updateRuntimeVersion=exposdk%3A52.0.0&createdAt=2025-04-29T22%3A44%3A39.398Z&slug=exp&projectId=c15de187-d9fe-4b8b-b42e-c4a219aca1a3&group=60ae1b6f-3e07-4130-ba88-9284bdaeb5a9"
-                        className="text-blue-500 underline font-medium hover:text-blue-700 flex items-center justify-center py-2"
-                      >
-                        <span className="mr-2">Click here to launch Sip n Savor in Expo Go</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-                      </a>
-                    </div>
-                  )}
-
-                  {step.id === 4 && (
-                    <div className="mt-4 grid grid-cols-2 sm:grid-cols-4 gap-2">
-                      {["Quiz", "Maps", "ChatBot", "Tasting Log", "Info Guide", "Explore", "Badges", "Flashcards"].map((feature) => (
-                        <div key={feature} className="bg-gradient-to-r from-slate-200 to-blue-200 px-3 py-2 rounded-lg text-center text-slate-700 font-medium hover:from-slate-300 hover:to-blue-300 transition-colors cursor-pointer shadow-sm">
-                          {feature}
-                        </div>
-                      ))}
-                    </div>
-                  )}
-
-                  {step.id === 5 && (
-                    <div className="mt-4 p-4 bg-gradient-to-r from-slate-100 to-blue-100 rounded-lg border border-slate-200">
-                      <a
-                        href="https://docs.google.com/forms/d/e/1FAIpQLSfpVDbj-HElUJPPGYqPEmwd7rB1ThGcfDhURwgGqxYBLmckUw/viewform?usp=header"
-                        className="text-blue-500 underline font-medium hover:text-blue-700 flex items-center justify-center py-2"
-                      >
-                        <span className="mr-2">📋 Click here to take our feedback survey</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-                      </a>
-                    </div>
-                  )}
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-
-        {/* Download Buttons */}
-        <div className="bg-gradient-to-r from-slate-300 to-blue-300 rounded-2xl p-10 text-center shadow-lg">
-          <h3 className="text-2xl font-serif font-medium mb-6 text-slate-800">Download Expo Go Now</h3>
-          <p className="text-slate-700 mb-8 max-w-2xl mx-auto">
-            Begin your journey into the world of fine beverages and personalized tasting experiences.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4">
             <a
-              href="https://apps.apple.com/us/app/expo-go/id982107779"
+              href="https://apps.apple.com/app/sipnsavor"
               target="_blank"
-              className="bg-white text-slate-700 px-6 py-3 rounded-full flex items-center justify-center gap-2 hover:bg-slate-50 transition-colors duration-300 shadow-md"
+              className="bg-white/90 backdrop-blur text-purple-900 px-8 py-4 rounded-full flex items-center justify-center gap-2 hover:bg-white transition-colors duration-300 shadow-lg font-medium"
             >
               <Image
                 src="/images/app-store.png"
@@ -132,43 +111,157 @@ export default function Home() {
                 height={24}
                 className=""
               />
-              App Store
+              Download Now
             </a>
-            <a
-              href="https://play.google.com/store/apps/details?id=host.exp.exponent"
-              target="_blank"
-              className="bg-white text-slate-700 px-6 py-3 rounded-full flex items-center justify-center gap-2 hover:bg-slate-50 transition-colors duration-300 shadow-md"
+            <Link
+              href="/features"
+              className="bg-transparent border-2 border-white/80 text-white px-8 py-4 rounded-full flex items-center justify-center hover:bg-white/10 transition-colors duration-300"
             >
-              <Image
-                src="/images/gg-play.png"
-                alt="Google Play"
-                width={24}
-                height={24}
-                className=""
-              />
-              Google Play
-            </a>
+              Learn More
+            </Link>
           </div>
         </div>
-      </main>
+      </header>
+
+      {/* Feature Preview Section */}
+      <section className="max-w-7xl mx-auto px-6 py-24">
+        <div className="text-center mb-16">
+          <h2 className="text-3xl md:text-5xl font-serif font-light mb-6 text-slate-800">Discover What Makes Us Special</h2>
+          <p className="text-lg text-rose-700 max-w-3xl mx-auto">
+            SipNSavor combines expert knowledge, interactive learning, and personalized tracking to create your ultimate wine companion.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {featuresPreviews.map((feature) => (
+            <div key={feature.id} className="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300 border border-slate-100">
+              <div className="h-16 w-16 flex items-center justify-center bg-gradient-to-r from-rose-200 to-purple-200 text-slate-800 rounded-full shadow-md mb-6">
+                <span className="text-3xl">{feature.icon}</span>
+              </div>
+              <h3 className="text-xl font-bold mb-3 text-slate-800">{feature.title}</h3>
+              <p className="text-slate-600">{feature.description}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* App Screenshots Section */}
+      <section className="bg-gradient-to-r from-purple-100 to-rose-100 py-24">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-serif font-light mb-6 text-slate-800">See SipNSavor in Action</h2>
+            <p className="text-lg text-rose-700 max-w-2xl mx-auto">
+              Beautiful design meets intuitive functionality for seamless wine exploration
+            </p>
+          </div>
+          
+          <div className="flex overflow-x-auto space-x-6 pb-8 scrollbar-hide">
+            {screenshotCaptions.map((caption, index) => (
+              <div key={index} className="flex-none w-72">
+                <div className="bg-slate-900 rounded-2xl overflow-hidden shadow-2xl">
+                  <div className="aspect-[9/16] bg-gradient-to-b from-purple-500 to-rose-500 relative">
+                    {/* App screenshots would replace these placeholders */}
+                    <div className="absolute inset-0 flex items-center justify-center text-white text-xl font-light">
+                      App Screenshot {index + 1}
+                    </div>
+                  </div>
+                </div>
+                <p className="text-center mt-4 font-medium text-slate-700">{caption}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonials Section */}
+      <section className="max-w-7xl mx-auto px-6 py-24">
+        <div className="text-center mb-16">
+          <h2 className="text-3xl md:text-4xl font-serif font-light mb-6 text-slate-800">What Our Users Say</h2>
+          <p className="text-lg text-rose-700 max-w-2xl mx-auto">
+            Join thousands of wine enthusiasts who've transformed their appreciation for wine
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {testimonials.map((testimonial) => (
+            <div key={testimonial.id} className="bg-white p-8 rounded-2xl shadow-md border border-slate-100">
+              <div className="flex items-center mb-6">
+                <div className="h-12 w-12 flex items-center justify-center bg-gradient-to-r from-rose-200 to-purple-200 rounded-full mr-4 text-2xl">
+                  {testimonial.avatar}
+                </div>
+                <div>
+                  <h4 className="text-lg font-bold text-slate-800">{testimonial.name}</h4>
+                  <p className="text-slate-500">{testimonial.occupation}</p>
+                </div>
+              </div>
+              <p className="text-slate-600 italic">"{testimonial.quote}"</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Download CTA Section */}
+      <section className="bg-gradient-to-r from-purple-900 to-rose-900 text-white py-24">
+        <div className="max-w-5xl mx-auto px-6 text-center">
+          <h2 className="text-3xl md:text-5xl font-serif font-light mb-8">Begin Your Wine Journey Today</h2>
+          <p className="text-xl font-light max-w-3xl mx-auto mb-10">
+            Join a community of wine lovers and start building your personalized wine experience with expert guidance at your fingertips.
+          </p>
+          <a
+            href="https://apps.apple.com/us/app/sipnsavor/id6745084274"
+            target="_blank"
+            className="bg-white text-purple-900 px-10 py-5 rounded-full inline-flex items-center justify-center gap-3 hover:bg-slate-100 transition-colors duration-300 shadow-lg font-medium text-lg"
+          >
+            <Image
+              src="/images/app-store.png"
+              alt="App Store"
+              width={28}
+              height={28}
+              className=""
+            />
+            Download on the App Store
+          </a>
+        </div>
+      </section>
 
       {/* Footer */}
-      <footer className="bg-gradient-to-r from-slate-400 to-blue-400 text-white py-10">
-        <div className="max-w-5xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
-          <div className="text-center md:text-left">
-            <h2 className="text-2xl font-serif font-light mb-2">Sip n Savor</h2>
-            <p className="text-slate-100 text-sm">Thanks again for helping us make Sip n Savor the best it can be!</p>
+      <footer className="bg-slate-900 text-white py-14">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-10">
+            <div>
+              <h3 className="text-2xl font-serif font-light mb-4">SipNSavor</h3>
+              <p className="text-slate-300 text-sm">Your personal sommelier in your pocket</p>
+            </div>
+            <div>
+              <h4 className="font-medium mb-4">Navigation</h4>
+              <div className="flex flex-col space-y-2">
+                <Link href="/" className="text-slate-300 hover:text-white transition-colors">Home</Link>
+                <Link href="/features" className="text-slate-300 hover:text-white transition-colors">Features</Link>
+                <Link href="/about" className="text-slate-300 hover:text-white transition-colors">About Us</Link>
+              </div>
+            </div>
+            <div>
+              <h4 className="font-medium mb-4">Legal</h4>
+              <div className="flex flex-col space-y-2">
+                <Link href="#" className="text-slate-300 hover:text-white transition-colors">Privacy Policy</Link>
+                <Link href="#" className="text-slate-300 hover:text-white transition-colors">Terms of Service</Link>
+                <Link href="#" className="text-slate-300 hover:text-white transition-colors">Contact</Link>
+              </div>
+            </div>
           </div>
-          <div className="flex gap-6">
-            <a href="#" className="text-slate-100 hover:text-white transition-colors">
-              Contact
-            </a>
-            <a href="#" className="text-slate-100 hover:text-white transition-colors">
-              Support
-            </a>
-            <a href="#" className="text-slate-100 hover:text-white transition-colors">
-              Privacy
-            </a>
+          <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center">
+            <p className="text-slate-400 text-sm">© {new Date().getFullYear()} SipNSavor. All rights reserved.</p>
+            <div className="flex space-x-6 mt-4 md:mt-0">
+              <a href="#" className="text-slate-400 hover:text-white transition-colors">
+                Instagram
+              </a>
+              <a href="#" className="text-slate-400 hover:text-white transition-colors">
+                Twitter
+              </a>
+              <a href="#" className="text-slate-400 hover:text-white transition-colors">
+                Facebook
+              </a>
+            </div>
           </div>
         </div>
       </footer>
