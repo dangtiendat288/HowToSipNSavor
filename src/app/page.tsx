@@ -178,7 +178,7 @@ export default function Home() {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-serif font-light mb-6 text-slate-800">What Our Users Say</h2>
           <p className="text-lg text-rose-700 max-w-2xl mx-auto">
-            Join thousands of wine enthusiasts who've transformed their appreciation for wine
+            Join thousands of wine enthusiasts who have transformed their appreciation for wine
           </p>
         </div>
 
@@ -194,7 +194,7 @@ export default function Home() {
                   <p className="text-slate-500">{testimonial.occupation}</p>
                 </div>
               </div>
-              <p className="text-slate-600 italic">"{testimonial.quote}"</p>
+              <p className="text-slate-600 italic">{testimonial.quote}</p>
             </div>
           ))}
         </div>

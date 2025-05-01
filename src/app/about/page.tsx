@@ -6,31 +6,45 @@ export default function About() {
   const teamMembers = [
     {
       id: 1,
-      name: "Emma Laurent",
-      position: "Founder & CEO",
-      bio: "Certified sommelier with 15 years of experience in the wine industry. Emma's passion for making wine accessible to everyone led her to create SipNSavor after noticing how technology could bridge the knowledge gap for wine enthusiasts.",
-      avatar: "emma.jpg" // These would be replaced with actual team images
+      name: "Pradyumn Varma",
+      position: "Developer",
+      bio: "A skilled developer with expertise in modern web technologies. Pradyumn plays a key role in building and maintaining the core functionalities of SipNSavor, ensuring a smooth user experience across all features.",
+      avatar: "pradyumn.jpg" 
     },
     {
       id: 2,
-      name: "James Chen",
-      position: "Head of Product",
-      bio: "Former tech executive and wine collector, James combines his technological expertise with his love for wine culture. He oversees all product development, ensuring SipNSavor delivers an intuitive and educational experience.",
-      avatar: "james.jpg"
+      name: "Utkarsh Bhagat",
+      position: "Developer",
+      bio: "Passionate about creating intuitive user interfaces, Utkarsh brings his technical expertise to implement the interactive elements of SipNSavor. He focuses on performance optimization and responsive design across all devices.",
+      avatar: "utkarsh.jpg"
     },
     {
       id: 3,
-      name: "Sofia Mendez",
-      position: "Master Sommelier",
-      bio: "With credentials from the Court of Master Sommeliers and experience at Michelin-starred restaurants, Sofia develops our educational content and ensures all wine information is accurate, current, and presented in an approachable way.",
-      avatar: "sofia.jpg"
+      name: "Christian Coker",
+      position: "Developer",
+      bio: "With a strong background in software engineering, Christian works on the backend systems that power SipNSavor's data management and AI features. He ensures the app's architecture is robust and scalable.",
+      avatar: "christian.jpg"
     },
     {
       id: 4,
-      name: "Marcus Williams",
-      position: "Lead Developer",
-      bio: "Tech innovator specializing in mobile applications and AI integration. Marcus is the architectural mind behind SipNSavor's smart features including the AI Sommelier Bot and the interactive learning modules.",
-      avatar: "marcus.jpg"
+      name: "Tien Dat Dang",
+      position: "Developer",
+      bio: "Specializing in mobile application development, Tien Dat contributes to making SipNSavor's features responsive and user-friendly. He works on implementing the interactive learning modules and tasting journal components.",
+      avatar: "tien.jpg"
+    },
+    {
+      id: 5,
+      name: "Jia-Jui Jang",
+      position: "Developer",
+      bio: "Jia-Jui excels at solving complex programming challenges in the SipNSavor platform. He specializes in integrating the AI functionality and ensuring seamless data flow between different app components.",
+      avatar: "jia-jui.jpg"
+    },
+    {
+      id: 6,
+      name: "Waley Lin",
+      position: "Developer",
+      bio: "With an eye for detail and a passion for clean code, Waley works on SipNSavor's frontend elements and user interface improvements. He ensures the app maintains an elegant and intuitive design across all features.",
+      avatar: "waley.jpg"
     }
   ];
 
