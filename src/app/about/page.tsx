@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 
 export default function About() {
@@ -72,7 +72,7 @@ export default function About() {
               What began as a small passion project quickly evolved as Emma assembled a team of experts spanning wine education, technology, and user experience design. Together, they crafted an app that combines deep wine knowledge with cutting-edge technology, all presented in an approachable, engaging format.
             </p>
             <p className="mt-4 text-blue-100">
-              Since our launch, we've helped thousands of users develop their palates, expand their wine knowledge, and most importantly, gain the confidence to explore new wines and regions without intimidation. Our community has grown to include everyone from casual wine enthusiasts to aspiring sommeliers, all connected by their love for learning and appreciation for the rich culture of wine.
+              Since our launch, we have helped thousands of users develop their palates, expand their wine knowledge, and most importantly, gain the confidence to explore new wines and regions without intimidation. Our community has grown to include everyone from casual wine enthusiasts to aspiring sommeliers, all connected by their love for learning and appreciation for the rich culture of wine.
             </p>
           </div>
           
@@ -113,7 +113,7 @@ export default function About() {
         <div className="max-w-5xl mx-auto px-6 text-center">
           <h2 className="text-3xl font-serif font-light mb-8 text-white">Get in Touch</h2>
           <p className="text-lg text-blue-100 max-w-3xl mx-auto mb-10">
-            We'd love to hear from you! Whether you have questions about SipNSavor, feedback on our app, or just want to share your wine journey with us, our team is here for you.
+            We would love to hear from you! Whether you have questions about SipNSavor, feedback on our app, or just want to share your wine journey with us, our team is here for you.
           </p>
           
           <div className="bg-[#0a1929]/70 backdrop-blur rounded-2xl shadow-lg p-10 max-w-2xl mx-auto border border-blue-900/30">
@@ -156,10 +156,10 @@ export default function About() {
           <p><strong>Target Audience:</strong> Adults 25-65 with disposable income, interested in self-improvement, culinary experiences, and social activities. They range from complete wine novices to experienced enthusiasts seeking to deepen their knowledge.</p>
           <p><strong>Sample Phrases:</strong></p>
           <ul>
-            <li>"Discover wines that match your unique palate"</li>
-            <li>"Learning about wine should be as enjoyable as drinking it"</li>
-            <li>"Your personal sommelier journey begins here"</li>
-            <li>"Uncork your potential with every tasting"</li>
+            <li>Discover wines that match your unique palate</li>
+            <li>Learning about wine should be as enjoyable as drinking it</li>
+            <li>Your personal sommelier journey begins here</li>
+            <li>Uncork your potential with every tasting</li>
           </ul>
         </div>
       </div>
