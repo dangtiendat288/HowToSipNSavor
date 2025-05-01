@@ -84,10 +84,10 @@ export default function Home() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-50 to-rose-50 text-slate-800">
+    <div className="min-h-screen bg-gradient-to-b from-[#051630] to-[#0a2547] text-white">
       {/* Hero Section */}
       <header className="relative h-[80vh] overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-purple-900/70 to-rose-900/70 z-10"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/80 to-indigo-900/80 z-10"></div>
         <div className="relative h-full w-full bg-[url('/images/hero.jpg')] bg-cover bg-center">
           {/* Hero image from public/images/hero.jpg */}
         </div>
@@ -100,9 +100,9 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a
-              href="https://apps.apple.com/app/sipnsavor"
+              href="https://apps.apple.com/us/app/sipnsavor/id6745084274"
               target="_blank"
-              className="bg-white/90 backdrop-blur text-purple-900 px-8 py-4 rounded-full flex items-center justify-center gap-2 hover:bg-white transition-colors duration-300 shadow-lg font-medium"
+              className="bg-white/90 backdrop-blur text-blue-900 px-8 py-4 rounded-full flex items-center justify-center gap-2 hover:bg-white transition-colors duration-300 shadow-lg font-medium"
             >
               <Image
                 src="/images/app-store.png"
@@ -126,31 +126,31 @@ export default function Home() {
       {/* Feature Preview Section */}
       <section className="max-w-7xl mx-auto px-6 py-24">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-5xl font-serif font-light mb-6 text-slate-800">Discover What Makes Us Special</h2>
-          <p className="text-lg text-rose-700 max-w-3xl mx-auto">
+          <h2 className="text-3xl md:text-5xl font-serif font-light mb-6 text-white">Discover What Makes Us Special</h2>
+          <p className="text-lg text-blue-300 max-w-3xl mx-auto">
             SipNSavor combines expert knowledge, interactive learning, and personalized tracking to create your ultimate wine companion.
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {featuresPreviews.map((feature) => (
-            <div key={feature.id} className="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300 border border-slate-100">
-              <div className="h-16 w-16 flex items-center justify-center bg-gradient-to-r from-rose-200 to-purple-200 text-slate-800 rounded-full shadow-md mb-6">
+            <div key={feature.id} className="bg-[#0a1929]/50 backdrop-blur p-8 rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300 border border-blue-900/30">
+              <div className="h-16 w-16 flex items-center justify-center bg-gradient-to-r from-blue-700 to-indigo-600 text-white rounded-full shadow-md mb-6">
                 <span className="text-3xl">{feature.icon}</span>
               </div>
-              <h3 className="text-xl font-bold mb-3 text-slate-800">{feature.title}</h3>
-              <p className="text-slate-600">{feature.description}</p>
+              <h3 className="text-xl font-bold mb-3 text-white">{feature.title}</h3>
+              <p className="text-blue-100">{feature.description}</p>
             </div>
           ))}
         </div>
       </section>
 
       {/* App Screenshots Section */}
-      <section className="bg-gradient-to-r from-purple-100 to-rose-100 py-24">
+      <section className="bg-gradient-to-r from-blue-900 to-indigo-900 py-24">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-serif font-light mb-6 text-slate-800">See SipNSavor in Action</h2>
-            <p className="text-lg text-rose-700 max-w-2xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-serif font-light mb-6 text-white">See SipNSavor in Action</h2>
+            <p className="text-lg text-blue-300 max-w-2xl mx-auto">
               Beautiful design meets intuitive functionality for seamless wine exploration
             </p>
           </div>
@@ -158,15 +158,15 @@ export default function Home() {
           <div className="flex overflow-x-auto space-x-6 pb-8 scrollbar-hide">
             {screenshotCaptions.map((caption, index) => (
               <div key={index} className="flex-none w-72">
-                <div className="bg-slate-900 rounded-2xl overflow-hidden shadow-2xl">
-                  <div className="aspect-[9/16] bg-gradient-to-b from-purple-500 to-rose-500 relative">
+                <div className="bg-[#051630] rounded-2xl overflow-hidden shadow-2xl">
+                  <div className="aspect-[9/16] bg-gradient-to-b from-blue-700 to-indigo-800 relative">
                     {/* App screenshots would replace these placeholders */}
                     <div className="absolute inset-0 flex items-center justify-center text-white text-xl font-light">
                       App Screenshot {index + 1}
                     </div>
                   </div>
                 </div>
-                <p className="text-center mt-4 font-medium text-slate-700">{caption}</p>
+                <p className="text-center mt-4 font-medium text-blue-100">{caption}</p>
               </div>
             ))}
           </div>
@@ -176,32 +176,32 @@ export default function Home() {
       {/* Testimonials Section */}
       <section className="max-w-7xl mx-auto px-6 py-24">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-serif font-light mb-6 text-slate-800">What Our Users Say</h2>
-          <p className="text-lg text-rose-700 max-w-2xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-serif font-light mb-6 text-white">What Our Users Say</h2>
+          <p className="text-lg text-blue-300 max-w-2xl mx-auto">
             Join thousands of wine enthusiasts who have transformed their appreciation for wine
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {testimonials.map((testimonial) => (
-            <div key={testimonial.id} className="bg-white p-8 rounded-2xl shadow-md border border-slate-100">
+            <div key={testimonial.id} className="bg-[#0a1929]/50 backdrop-blur p-8 rounded-2xl shadow-md border border-blue-900/30">
               <div className="flex items-center mb-6">
-                <div className="h-12 w-12 flex items-center justify-center bg-gradient-to-r from-rose-200 to-purple-200 rounded-full mr-4 text-2xl">
+                <div className="h-12 w-12 flex items-center justify-center bg-gradient-to-r from-blue-700 to-indigo-600 rounded-full mr-4 text-2xl">
                   {testimonial.avatar}
                 </div>
                 <div>
-                  <h4 className="text-lg font-bold text-slate-800">{testimonial.name}</h4>
-                  <p className="text-slate-500">{testimonial.occupation}</p>
+                  <h4 className="text-lg font-bold text-white">{testimonial.name}</h4>
+                  <p className="text-blue-200">{testimonial.occupation}</p>
                 </div>
               </div>
-              <p className="text-slate-600 italic">{testimonial.quote}</p>
+              <p className="text-blue-100 italic">{testimonial.quote}</p>
             </div>
           ))}
         </div>
       </section>
 
       {/* Download CTA Section */}
-      <section className="bg-gradient-to-r from-purple-900 to-rose-900 text-white py-24">
+      <section className="bg-gradient-to-r from-blue-900 to-indigo-900 text-white py-24">
         <div className="max-w-5xl mx-auto px-6 text-center">
           <h2 className="text-3xl md:text-5xl font-serif font-light mb-8">Begin Your Wine Journey Today</h2>
           <p className="text-xl font-light max-w-3xl mx-auto mb-10">
@@ -210,7 +210,7 @@ export default function Home() {
           <a
             href="https://apps.apple.com/us/app/sipnsavor/id6745084274"
             target="_blank"
-            className="bg-white text-purple-900 px-10 py-5 rounded-full inline-flex items-center justify-center gap-3 hover:bg-slate-100 transition-colors duration-300 shadow-lg font-medium text-lg"
+            className="bg-white text-blue-900 px-10 py-5 rounded-full inline-flex items-center justify-center gap-3 hover:bg-slate-100 transition-colors duration-300 shadow-lg font-medium text-lg"
           >
             <Image
               src="/images/app-store.png"
@@ -225,40 +225,40 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-slate-900 text-white py-14">
+      <footer className="bg-[#051630] text-white py-14">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-10">
             <div>
               <h3 className="text-2xl font-serif font-light mb-4">SipNSavor</h3>
-              <p className="text-slate-300 text-sm">Your personal sommelier in your pocket</p>
+              <p className="text-blue-200 text-sm">Your personal sommelier in your pocket</p>
             </div>
             <div>
               <h4 className="font-medium mb-4">Navigation</h4>
               <div className="flex flex-col space-y-2">
-                <Link href="/" className="text-slate-300 hover:text-white transition-colors">Home</Link>
-                <Link href="/features" className="text-slate-300 hover:text-white transition-colors">Features</Link>
-                <Link href="/about" className="text-slate-300 hover:text-white transition-colors">About Us</Link>
+                <Link href="/" className="text-blue-200 hover:text-white transition-colors">Home</Link>
+                <Link href="/features" className="text-blue-200 hover:text-white transition-colors">Features</Link>
+                <Link href="/about" className="text-blue-200 hover:text-white transition-colors">About Us</Link>
               </div>
             </div>
             <div>
               <h4 className="font-medium mb-4">Legal</h4>
               <div className="flex flex-col space-y-2">
-                <Link href="#" className="text-slate-300 hover:text-white transition-colors">Privacy Policy</Link>
-                <Link href="#" className="text-slate-300 hover:text-white transition-colors">Terms of Service</Link>
-                <Link href="#" className="text-slate-300 hover:text-white transition-colors">Contact</Link>
+                <Link href="#" className="text-blue-200 hover:text-white transition-colors">Privacy Policy</Link>
+                <Link href="#" className="text-blue-200 hover:text-white transition-colors">Terms of Service</Link>
+                <Link href="#" className="text-blue-200 hover:text-white transition-colors">Contact</Link>
               </div>
             </div>
           </div>
-          <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center">
-            <p className="text-slate-400 text-sm">© {new Date().getFullYear()} SipNSavor. All rights reserved.</p>
+          <div className="border-t border-blue-900 pt-8 flex flex-col md:flex-row justify-between items-center">
+            <p className="text-blue-300 text-sm">© {new Date().getFullYear()} SipNSavor. All rights reserved.</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
-              <a href="#" className="text-slate-400 hover:text-white transition-colors">
+              <a href="#" className="text-blue-300 hover:text-white transition-colors">
                 Instagram
               </a>
-              <a href="#" className="text-slate-400 hover:text-white transition-colors">
+              <a href="#" className="text-blue-300 hover:text-white transition-colors">
                 Twitter
               </a>
-              <a href="#" className="text-slate-400 hover:text-white transition-colors">
+              <a href="#" className="text-blue-300 hover:text-white transition-colors">
                 Facebook
               </a>
             </div>

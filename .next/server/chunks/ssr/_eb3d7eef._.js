@@ -76,10 +76,10 @@ function About() {
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "min-h-screen bg-gradient-to-b from-slate-50 to-rose-50 text-slate-800",
+        className: "min-h-screen bg-gradient-to-b from-[#051630] to-[#0a2547] text-white",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
-                className: "bg-gradient-to-r from-purple-900 to-rose-900 text-white py-20",
+                className: "bg-gradient-to-r from-blue-900 to-indigo-900 text-white py-20",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "max-w-7xl mx-auto px-6 text-center",
                     children: [
@@ -113,10 +113,10 @@ function About() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 className: "max-w-5xl mx-auto px-6 py-20",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "bg-white rounded-2xl shadow-lg p-10 md:p-16",
+                    className: "bg-[#0a1929]/50 backdrop-blur rounded-2xl shadow-lg p-10 md:p-16 border border-blue-900/30",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-3xl font-serif font-light mb-8 text-slate-800",
+                            className: "text-3xl font-serif font-light mb-8 text-white",
                             children: "The SipNSavor Journey"
                         }, void 0, false, {
                             fileName: "[project]/src/app/about/page.tsx",
@@ -124,9 +124,10 @@ function About() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "prose prose-lg prose-slate max-w-none",
+                            className: "prose prose-lg prose-invert max-w-none",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "text-blue-100",
                                     children: "SipNSavor was born in 2023 from a simple observation: while wine brings joy to millions, many people find the world of wine intimidating and complex. Our founder, Emma Laurent, a certified sommelier with extensive experience in wine education, realized that technology could bridge this knowledge gap and make wine more accessible to everyone."
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/about/page.tsx",
@@ -134,7 +135,7 @@ function About() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "mt-4",
+                                    className: "mt-4 text-blue-100",
                                     children: "What began as a small passion project quickly evolved as Emma assembled a team of experts spanning wine education, technology, and user experience design. Together, they crafted an app that combines deep wine knowledge with cutting-edge technology, all presented in an approachable, engaging format."
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/about/page.tsx",
@@ -142,7 +143,7 @@ function About() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "mt-4",
+                                    className: "mt-4 text-blue-100",
                                     children: "Since our launch, we've helped thousands of users develop their palates, expand their wine knowledge, and most importantly, gain the confidence to explore new wines and regions without intimidation. Our community has grown to include everyone from casual wine enthusiasts to aspiring sommeliers, all connected by their love for learning and appreciation for the rich culture of wine."
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/about/page.tsx",
@@ -156,10 +157,10 @@ function About() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "mt-12 bg-gradient-to-r from-rose-50 to-purple-50 p-8 rounded-xl border border-rose-100",
+                            className: "mt-12 bg-gradient-to-r from-blue-800/50 to-indigo-800/50 p-8 rounded-xl border border-blue-700/30",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    className: "text-2xl font-serif font-light mb-4 text-slate-800",
+                                    className: "text-2xl font-serif font-light mb-4 text-white",
                                     children: "Our Mission"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/about/page.tsx",
@@ -167,7 +168,7 @@ function About() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-lg font-medium text-rose-700",
+                                    className: "text-lg font-medium text-blue-200",
                                     children: "To transform wine exploration into an engaging journey of discovery, making the world of wine accessible and enjoyable for enthusiasts at every knowledge level through technology and education."
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/about/page.tsx",
@@ -195,7 +196,7 @@ function About() {
                 className: "max-w-7xl mx-auto px-6 py-16",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                        className: "text-3xl font-serif font-light mb-16 text-center text-slate-800",
+                        className: "text-3xl font-serif font-light mb-16 text-center text-white",
                         children: "Meet Our Team"
                     }, void 0, false, {
                         fileName: "[project]/src/app/about/page.tsx",
@@ -205,12 +206,12 @@ function About() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "grid grid-cols-1 md:grid-cols-2 gap-12",
                         children: teamMembers.map((member)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "bg-white rounded-2xl shadow-md overflow-hidden flex flex-col",
+                                className: "bg-[#0a1929]/50 backdrop-blur rounded-2xl shadow-md overflow-hidden flex flex-col border border-blue-900/30",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "bg-gradient-to-r from-purple-200 to-rose-200 h-48 relative",
+                                        className: "bg-gradient-to-r from-blue-800 to-indigo-700 h-48 relative",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "absolute inset-0 flex items-center justify-center text-slate-700 text-xl font-light bg-slate-200/20 backdrop-blur-sm",
+                                            className: "absolute inset-0 flex items-center justify-center text-white text-xl font-light bg-blue-900/20 backdrop-blur-sm",
                                             children: [
                                                 "Team Photo: ",
                                                 member.name
@@ -229,7 +230,7 @@ function About() {
                                         className: "p-8",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                className: "text-2xl font-bold text-slate-800",
+                                                className: "text-2xl font-bold text-white",
                                                 children: member.name
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/about/page.tsx",
@@ -237,7 +238,7 @@ function About() {
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "text-rose-600 font-medium mb-4",
+                                                className: "text-blue-300 font-medium mb-4",
                                                 children: member.position
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/about/page.tsx",
@@ -245,7 +246,7 @@ function About() {
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "text-slate-600",
+                                                className: "text-blue-100",
                                                 children: member.bio
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/about/page.tsx",
@@ -276,12 +277,12 @@ function About() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                className: "bg-gradient-to-r from-purple-100 to-rose-100 py-20",
+                className: "bg-gradient-to-r from-blue-900 to-indigo-900 py-20",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "max-w-5xl mx-auto px-6 text-center",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-3xl font-serif font-light mb-8 text-slate-800",
+                            className: "text-3xl font-serif font-light mb-8 text-white",
                             children: "Get in Touch"
                         }, void 0, false, {
                             fileName: "[project]/src/app/about/page.tsx",
@@ -289,7 +290,7 @@ function About() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-lg text-slate-700 max-w-3xl mx-auto mb-10",
+                            className: "text-lg text-blue-100 max-w-3xl mx-auto mb-10",
                             children: "We'd love to hear from you! Whether you have questions about SipNSavor, feedback on our app, or just want to share your wine journey with us, our team is here for you."
                         }, void 0, false, {
                             fileName: "[project]/src/app/about/page.tsx",
@@ -297,14 +298,14 @@ function About() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "bg-white rounded-2xl shadow-lg p-10 max-w-2xl mx-auto",
+                            className: "bg-[#0a1929]/70 backdrop-blur rounded-2xl shadow-lg p-10 max-w-2xl mx-auto border border-blue-900/30",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "flex flex-col space-y-8",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                className: "text-xl font-medium mb-2 text-slate-800",
+                                                className: "text-xl font-medium mb-2 text-white",
                                                 children: "Email Us"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/about/page.tsx",
@@ -313,7 +314,7 @@ function About() {
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                 href: "mailto:hello@sipnsavor.com",
-                                                className: "text-rose-600 hover:text-rose-700 transition-colors",
+                                                className: "text-blue-300 hover:text-blue-200 transition-colors",
                                                 children: "hello@sipnsavor.com"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/about/page.tsx",
@@ -329,7 +330,7 @@ function About() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                className: "text-xl font-medium mb-2 text-slate-800",
+                                                className: "text-xl font-medium mb-2 text-white",
                                                 children: "Follow Us"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/about/page.tsx",
@@ -341,7 +342,7 @@ function About() {
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                         href: "https://instagram.com/sipnsavor",
-                                                        className: "text-slate-700 hover:text-rose-600 transition-colors",
+                                                        className: "text-blue-200 hover:text-white transition-colors",
                                                         children: "Instagram: @sipnsavor"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/about/page.tsx",
@@ -350,7 +351,7 @@ function About() {
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                         href: "https://twitter.com/sipnsavor",
-                                                        className: "text-slate-700 hover:text-rose-600 transition-colors",
+                                                        className: "text-blue-200 hover:text-white transition-colors",
                                                         children: "Twitter: @sipnsavor"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/about/page.tsx",
@@ -372,7 +373,7 @@ function About() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                className: "text-xl font-medium mb-2 text-slate-800",
+                                                className: "text-xl font-medium mb-2 text-white",
                                                 children: "Press & Partnerships"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/about/page.tsx",
@@ -381,7 +382,7 @@ function About() {
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                 href: "mailto:partners@sipnsavor.com",
-                                                className: "text-rose-600 hover:text-rose-700 transition-colors",
+                                                className: "text-blue-300 hover:text-blue-200 transition-colors",
                                                 children: "partners@sipnsavor.com"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/about/page.tsx",
@@ -521,7 +522,7 @@ function About() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
-                className: "bg-slate-900 text-white py-14",
+                className: "bg-[#051630] text-white py-14",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "max-w-7xl mx-auto px-6",
                     children: [
@@ -539,7 +540,7 @@ function About() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-slate-300 text-sm",
+                                            className: "text-blue-200 text-sm",
                                             children: "Your personal sommelier in your pocket"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/about/page.tsx",
@@ -567,7 +568,7 @@ function About() {
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                                     href: "/",
-                                                    className: "text-slate-300 hover:text-white transition-colors",
+                                                    className: "text-blue-200 hover:text-white transition-colors",
                                                     children: "Home"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/about/page.tsx",
@@ -576,7 +577,7 @@ function About() {
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                                     href: "/features",
-                                                    className: "text-slate-300 hover:text-white transition-colors",
+                                                    className: "text-blue-200 hover:text-white transition-colors",
                                                     children: "Features"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/about/page.tsx",
@@ -585,7 +586,7 @@ function About() {
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                                     href: "/about",
-                                                    className: "text-slate-300 hover:text-white transition-colors",
+                                                    className: "text-blue-200 hover:text-white transition-colors",
                                                     children: "About Us"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/about/page.tsx",
@@ -619,7 +620,7 @@ function About() {
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                                     href: "#",
-                                                    className: "text-slate-300 hover:text-white transition-colors",
+                                                    className: "text-blue-200 hover:text-white transition-colors",
                                                     children: "Privacy Policy"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/about/page.tsx",
@@ -628,7 +629,7 @@ function About() {
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                                     href: "#",
-                                                    className: "text-slate-300 hover:text-white transition-colors",
+                                                    className: "text-blue-200 hover:text-white transition-colors",
                                                     children: "Terms of Service"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/about/page.tsx",
@@ -637,7 +638,7 @@ function About() {
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                                     href: "#",
-                                                    className: "text-slate-300 hover:text-white transition-colors",
+                                                    className: "text-blue-200 hover:text-white transition-colors",
                                                     children: "Contact"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/about/page.tsx",
@@ -663,10 +664,10 @@ function About() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center",
+                            className: "border-t border-blue-900 pt-8 flex flex-col md:flex-row justify-between items-center",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-slate-400 text-sm",
+                                    className: "text-blue-300 text-sm",
                                     children: [
                                         "© ",
                                         new Date().getFullYear(),
@@ -682,7 +683,7 @@ function About() {
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                             href: "#",
-                                            className: "text-slate-400 hover:text-white transition-colors",
+                                            className: "text-blue-300 hover:text-white transition-colors",
                                             children: "Instagram"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/about/page.tsx",
@@ -691,7 +692,7 @@ function About() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                             href: "#",
-                                            className: "text-slate-400 hover:text-white transition-colors",
+                                            className: "text-blue-300 hover:text-white transition-colors",
                                             children: "Twitter"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/about/page.tsx",
@@ -700,7 +701,7 @@ function About() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                             href: "#",
-                                            className: "text-slate-400 hover:text-white transition-colors",
+                                            className: "text-blue-300 hover:text-white transition-colors",
                                             children: "Facebook"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/about/page.tsx",

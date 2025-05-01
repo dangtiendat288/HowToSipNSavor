@@ -63,9 +63,9 @@ export default function Features() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-50 to-rose-50 text-slate-800">
+    <div className="min-h-screen bg-gradient-to-b from-[#051630] to-[#0a2547] text-white">
       {/* Header */}
-      <header className="bg-gradient-to-r from-purple-900 to-rose-900 text-white py-20">
+      <header className="bg-gradient-to-r from-blue-900 to-indigo-900 text-white py-20">
         <div className="max-w-7xl mx-auto px-6 text-center">
           <h1 className="text-4xl md:text-6xl font-serif font-light mb-6">Powerful Features for Wine Lovers</h1>
           <p className="text-xl font-light max-w-3xl mx-auto">
@@ -80,10 +80,10 @@ export default function Features() {
           {detailedFeatures.map((feature, index) => (
             <div key={feature.id} className={`flex flex-col ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} gap-10 items-center`}>
               <div className="lg:w-1/2">
-                <div className="bg-gradient-to-r from-purple-100 to-rose-100 p-1 rounded-2xl shadow-lg">
-                  <div className="aspect-[4/3] bg-gradient-to-b from-purple-300 to-rose-300 rounded-xl overflow-hidden relative">
+                <div className="bg-gradient-to-r from-blue-800 to-indigo-700 p-1 rounded-2xl shadow-lg">
+                  <div className="aspect-[4/3] bg-gradient-to-b from-blue-700 to-indigo-800 rounded-xl overflow-hidden relative">
                     {/* Feature image would go here */}
-                    <div className="absolute inset-0 flex items-center justify-center text-white text-xl font-light bg-slate-700/20 backdrop-blur-sm">
+                    <div className="absolute inset-0 flex items-center justify-center text-white text-xl font-light bg-blue-900/20 backdrop-blur-sm">
                       Feature Image: {feature.title}
                     </div>
                   </div>
@@ -91,12 +91,12 @@ export default function Features() {
               </div>
               <div className="lg:w-1/2">
                 <div className="flex items-center mb-4">
-                  <div className="h-14 w-14 flex items-center justify-center bg-gradient-to-r from-rose-300 to-purple-300 text-slate-800 rounded-full shadow-md mr-4">
+                  <div className="h-14 w-14 flex items-center justify-center bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-full shadow-md mr-4">
                     <span className="text-2xl">{feature.icon}</span>
                   </div>
-                  <h2 className="text-3xl font-serif font-light text-slate-800">{feature.title}</h2>
+                  <h2 className="text-3xl font-serif font-light text-white">{feature.title}</h2>
                 </div>
-                <p className="text-lg text-slate-600 leading-relaxed">
+                <p className="text-lg text-blue-100 leading-relaxed">
                   {feature.description}
                 </p>
               </div>
@@ -106,7 +106,7 @@ export default function Features() {
       </section>
 
       {/* Final CTA Section */}
-      <section className="bg-gradient-to-r from-purple-900 to-rose-900 text-white py-20">
+      <section className="bg-gradient-to-r from-blue-900 to-indigo-900 text-white py-20">
         <div className="max-w-5xl mx-auto px-6 text-center">
           <h2 className="text-3xl md:text-5xl font-serif font-light mb-8">Ready to Transform Your Wine Experience?</h2>
           <p className="text-xl font-light max-w-3xl mx-auto mb-10">
@@ -115,7 +115,7 @@ export default function Features() {
           <a
             href="https://apps.apple.com/us/app/sipnsavor/id6745084274"
             target="_blank"
-            className="bg-white text-purple-900 px-10 py-5 rounded-full inline-flex items-center justify-center gap-3 hover:bg-slate-100 transition-colors duration-300 shadow-lg font-medium text-lg"
+            className="bg-white text-blue-900 px-10 py-5 rounded-full inline-flex items-center justify-center gap-3 hover:bg-slate-100 transition-colors duration-300 shadow-lg font-medium text-lg"
           >
             <Image
               src="/images/app-store.png"
@@ -130,40 +130,40 @@ export default function Features() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-slate-900 text-white py-14">
+      <footer className="bg-[#051630] text-white py-14">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-10">
             <div>
               <h3 className="text-2xl font-serif font-light mb-4">SipNSavor</h3>
-              <p className="text-slate-300 text-sm">Your personal sommelier in your pocket</p>
+              <p className="text-blue-200 text-sm">Your personal sommelier in your pocket</p>
             </div>
             <div>
               <h4 className="font-medium mb-4">Navigation</h4>
               <div className="flex flex-col space-y-2">
-                <Link href="/" className="text-slate-300 hover:text-white transition-colors">Home</Link>
-                <Link href="/features" className="text-slate-300 hover:text-white transition-colors">Features</Link>
-                <Link href="/about" className="text-slate-300 hover:text-white transition-colors">About Us</Link>
+                <Link href="/" className="text-blue-200 hover:text-white transition-colors">Home</Link>
+                <Link href="/features" className="text-blue-200 hover:text-white transition-colors">Features</Link>
+                <Link href="/about" className="text-blue-200 hover:text-white transition-colors">About Us</Link>
               </div>
             </div>
             <div>
               <h4 className="font-medium mb-4">Legal</h4>
               <div className="flex flex-col space-y-2">
-                <Link href="#" className="text-slate-300 hover:text-white transition-colors">Privacy Policy</Link>
-                <Link href="#" className="text-slate-300 hover:text-white transition-colors">Terms of Service</Link>
-                <Link href="#" className="text-slate-300 hover:text-white transition-colors">Contact</Link>
+                <Link href="#" className="text-blue-200 hover:text-white transition-colors">Privacy Policy</Link>
+                <Link href="#" className="text-blue-200 hover:text-white transition-colors">Terms of Service</Link>
+                <Link href="#" className="text-blue-200 hover:text-white transition-colors">Contact</Link>
               </div>
             </div>
           </div>
-          <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center">
-            <p className="text-slate-400 text-sm">© {new Date().getFullYear()} SipNSavor. All rights reserved.</p>
+          <div className="border-t border-blue-900 pt-8 flex flex-col md:flex-row justify-between items-center">
+            <p className="text-blue-300 text-sm">© {new Date().getFullYear()} SipNSavor. All rights reserved.</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
-              <a href="#" className="text-slate-400 hover:text-white transition-colors">
+              <a href="#" className="text-blue-300 hover:text-white transition-colors">
                 Instagram
               </a>
-              <a href="#" className="text-slate-400 hover:text-white transition-colors">
+              <a href="#" className="text-blue-300 hover:text-white transition-colors">
                 Twitter
               </a>
-              <a href="#" className="text-slate-400 hover:text-white transition-colors">
+              <a href="#" className="text-blue-300 hover:text-white transition-colors">
                 Facebook
               </a>
             </div>
