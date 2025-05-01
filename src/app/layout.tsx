@@ -16,6 +16,9 @@ export const metadata: Metadata = {
   title: "SipNSavor | Elevate Your Wine Experience",
   description: "Explore, learn, and track your wine journey with SipNSavor - the ultimate companion app for wine enthusiasts of all levels.",
   keywords: "wine app, wine education, wine tasting, sommelier app, wine journal, wine maps, wine learning",
+  verification: {
+    google: "RV8El8Lk-eTlHggsiFbp40ijJ6T-0Qg6HBg0IrVjYwI",
+  },
 };
 
 export default function RootLayout({
